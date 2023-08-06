@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.rectangle {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+}
