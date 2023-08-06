@@ -3,6 +3,13 @@ body {
     overflow: hidden;
 }
 
+
+#addButton{
+    position: absolute;
+    left: 100%;
+    transform: translate(-200%,100%);
+}
+
 #container {
     position: relative;
     width: 100vw;
@@ -10,6 +17,7 @@ body {
 }
 
 .rectangle {
+    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     background-color: #fff;
     border: 2px solid blue;
