@@ -6,6 +6,7 @@ body {
 
 #addButton{
     position: absolute;
+    z-index: 2;
     left: 100%;
     transform: translate(-200%,100%);
 }
